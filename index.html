@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page" class="site login-show">
+      <div class="container">
+        <div class="wrapper">
+          <!-- Login form -->
+          <div class="login">
+            <div class="content-heading">
+              <div class="y-style">
+                <div class="logo">
+                  <a href="#">Acme<span>Design</span></a>
+                </div>
+                <div class="welcome">
+                  <h2>
+                    Welcome <br />
+                    Back!
+                  </h2>
+                  <p>Get Started to be creative.</p>
+                </div>
+              </div>
+            </div>
+            <div class="content-form">
+              <div class="y-style">
+                <form action="#" method="get">
+                  <p>
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                  </p>
+                  <p>
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Enter your password"
+                    />
+                  </p>
+                  <p class="check">
+                    <label for="remember">Remember me</label>
+                    <input type="checkbox" name="checkbox" id="remember" />
+                  </p>
+                  <p class="forgot"><a href="#">Forgot password</a></p>
+                  <p><button type="submit">Login</button></p>
+                </form>
+                <div class="afterform">
+                  <p>Dont have an account?</p>
+                  <a class="t-signup" href="#">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Registration form -->
+          <div class="signup">
+            <div class="content-heading">
+              <div class="y-style">
+                <div class="logo">
+                  <a href="#">Acme<span>Design</span></a>
+                </div>
+                <div class="welcome">
+                  <h2>
+                    Sign up <br />
+                    now!
+                  </h2>
+                  <p>
+                    Ready to be creative? <br />
+                    we can help you grow.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="content-form">
+              <div class="y-style">
+                <form action="#" method="post">
+                  <p>
+                    <label for="full-name">Full Name</label>
+                    <input
+                      type="text"
+                      name="full-name"
+                      id="full-name"
+                      placeholder="Enter your name"
+                    />
+                  </p>
+                  <p>
+                    <label for="Email">Email</label>
+                    <input
+                      type="email"
+                      name="Email"
+                      id="Email"
+                      placeholder="Enter your email"
+                    />
+                  </p>
+                  <p>
+                    <label for="Password">Password</label>
+                    <input
+                      type="password"
+                      name="Password"
+                      id="Password"
+                      placeholder="Enter your password"
+                    />
+                  </p>
+                  <p class="check">
+                    <input type="checkbox" name="terms" id="terms" />
+                    <label for="terms"
+                      >I agree all terms and conditions included in
+                      <a href="#">Terms of Use</a></label
+                    >
+                  </p>
+                  <p><button type="submit">Sign up</button></p>
+                </form>
+                <div class="social">
+                  <p><span>Or sign up with</span></p>
+                  <ul>
+                    <li>
+                      <a href="#" class="google"
+                        ><ion-icon name="logo-google"></ion-icon
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" class="facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="afterform">
+                  <p>Already have an account?</p>
+                  <a class="t-login" href="#">Login here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
